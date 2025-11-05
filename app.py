@@ -12,7 +12,7 @@ dispositivos = {}
 # Página principal
 @app.route('/')
 def home():
-    return "Servidor Flask funcionando correctamente"
+    return "Inicio de la aplicación."
 
 # Página con formulario HTML para agregar un dispositivo
 @app.route('/agregar', methods=['GET'])
